@@ -21,7 +21,7 @@ class DigitTest {
     @CsvSource({
             "12345678, false",
             "12344321, true",
-            "543345,   true"
+            "-543345,  true"
     })
     public void testIsPalindrome(int n, boolean expected) {
         Digit digit = new Digit();

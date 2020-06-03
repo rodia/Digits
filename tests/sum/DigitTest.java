@@ -10,7 +10,7 @@ class DigitTest {
     @CsvSource({
             "12345,   15",
             "612005,  14",
-            "132538,  22"
+            "-132538, -22"
     })
     public void testSumDigit(int n, int expected) {
         Digit digit = new Digit();

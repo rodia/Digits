@@ -23,7 +23,7 @@ class DigitTest {
             "12344321, true",
             "-543345,  true"
     })
-    public void testIsPalindrome(int n, boolean expected) {
+    public void testIsPalindromicNumber(int n, boolean expected) {
         Digit digit = new Digit();
         assertEquals(expected, digit.isPalindromicNumber(n));
     }
